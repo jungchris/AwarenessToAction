@@ -20,6 +20,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    NSURL *url = [NSURL URLWithString:@"https://apps.facebook.com/predator-alert-tool/"];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+ 
+    [self.webView loadRequest:request];
+    
 }
 
 - (void)didReceiveMemoryWarning {
