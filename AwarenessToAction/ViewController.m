@@ -10,6 +10,12 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *imageBackground;
+@property (weak, nonatomic) IBOutlet UILabel *labelHeader;
+
+- (IBAction)buttonStartTouch:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *buttonStart;
+
 @end
 
 @implementation ViewController
@@ -24,4 +30,6 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonStartTouch:(id)sender {
+}
 @end

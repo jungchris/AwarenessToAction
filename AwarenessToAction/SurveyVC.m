@@ -10,6 +10,19 @@
 
 @interface SurveyVC ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *imageBackground;
+@property (weak, nonatomic) IBOutlet UILabel *labelHeader;
+
+- (IBAction)button1Touch:(id)sender;
+- (IBAction)button2Touch:(id)sender;
+- (IBAction)button3Touch:(id)sender;
+- (IBAction)button4Touch:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UIButton *button1;
+@property (weak, nonatomic) IBOutlet UIButton *button2;
+@property (weak, nonatomic) IBOutlet UIButton *button3;
+@property (weak, nonatomic) IBOutlet UIButton *button4;
+
 @end
 
 @implementation SurveyVC
@@ -34,4 +47,15 @@
 }
 */
 
+- (IBAction)button1Touch:(id)sender {
+}
+
+- (IBAction)button2Touch:(id)sender {
+}
+
+- (IBAction)button3Touch:(id)sender {
+}
+
+- (IBAction)button4Touch:(id)sender {
+}
 @end

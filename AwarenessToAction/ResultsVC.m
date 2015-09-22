@@ -10,6 +10,24 @@
 
 @interface ResultsVC ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *imageBackground;
+@property (weak, nonatomic) IBOutlet UILabel *labelHeader;
+
+@property (weak, nonatomic) IBOutlet UILabel *label1;
+@property (weak, nonatomic) IBOutlet UILabel *label2;
+@property (weak, nonatomic) IBOutlet UILabel *label3;
+@property (weak, nonatomic) IBOutlet UILabel *label4;
+
+- (IBAction)button1Touch:(id)sender;
+- (IBAction)button2Touch:(id)sender;
+- (IBAction)button3Touch:(id)sender;
+- (IBAction)button4Touch:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UIButton *button1;
+@property (weak, nonatomic) IBOutlet UIButton *button2;
+@property (weak, nonatomic) IBOutlet UIButton *button3;
+@property (weak, nonatomic) IBOutlet UIButton *button4;
+
 @end
 
 @implementation ResultsVC
@@ -34,4 +52,14 @@
 }
 */
 
+- (IBAction)button1Touch:(id)sender {
+}
+
+- (IBAction)button2Touch:(id)sender {
+}
+- (IBAction)button3Touch:(id)sender {
+}
+
+- (IBAction)button4Touch:(id)sender {
+}
 @end

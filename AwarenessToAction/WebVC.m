@@ -10,6 +10,9 @@
 
 @interface WebVC ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *imageBackground;
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
+
 @end
 
 @implementation WebVC
