@@ -7,6 +7,7 @@
 //
 
 #import "SurveyVC.h"
+#import "ResultsVC.h"
 
 @interface SurveyVC ()
 
@@ -35,10 +36,37 @@
     self.labelHeader.numberOfLines = 0;
     [self.labelHeader sizeToFit];
     
-    self.button1.titleLabel.text = @"says you look as beautiful as his mother";
-    self.button2.titleLabel.text = @"says you look like a drag queen and makes you change";
-    self.button3.titleLabel.text = @"takes a photo of you and posts it on Facebook without asking";
-    self.button4.titleLabel.text = @"says you look like a million bucks";
+    // button text
+    [self.button1 setTitle:@"says you look as beautiful as his mother" forState:UIControlStateNormal];
+    [self.button2 setTitle:@"says you look like a drag queen and makes you change" forState:UIControlStateNormal];
+    [self.button3 setTitle:@"takes a photo of you and posts it on Facebook without asking" forState:UIControlStateNormal];
+    [self.button4 setTitle:@"says you look like a million bucks" forState:UIControlStateNormal];
+    
+    [self configureButtonsAppearance];
+    
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Main Methods
+
+
+#pragma mark - Appearance 
+
+- (void)configureButtonsAppearance {
+    
+    self.button1.titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
+    self.button2.titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
+    self.button3.titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
+    self.button4.titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
+    
+    self.button1.titleLabel.numberOfLines = 2;
+    self.button2.titleLabel.numberOfLines = 2;
+    self.button3.titleLabel.numberOfLines = 2;
+    self.button4.titleLabel.numberOfLines = 2;
     
     // border width
     self.button1.layer.borderWidth      = 2.0f;
@@ -58,24 +86,9 @@
     self.button3.titleLabel.font    = [UIFont fontWithName:@"HelveticaNeue-Bold" size:16.0f];
     self.button4.titleLabel.font    = [UIFont fontWithName:@"HelveticaNeue-Bold" size:16.0f];
     
-    
-    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+#pragma mark - Actions
 
 - (IBAction)button1Touch:(id)sender {
     

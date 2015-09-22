@@ -10,6 +10,7 @@
 
 @interface SurveyVC : UIViewController
 
-
+// keeps track of survey page
+@property (nonatomic) NSUInteger surveyIdentifier;
 
 @end

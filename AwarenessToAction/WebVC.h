@@ -10,4 +10,6 @@
 
 @interface WebVC : UIViewController
 
+@property (nonatomic) NSUInteger selectedResponse;
+
 @end
