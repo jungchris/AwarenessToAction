@@ -23,6 +23,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.imageBackground.image  = [UIImage imageNamed:@"start"];
+    self.labelHeader.text       = @"";
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -31,5 +35,8 @@
 }
 
 - (IBAction)buttonStartTouch:(id)sender {
+    
+    [self performSegueWithIdentifier:@"showSurvey" sender:self];
+    
 }
 @end

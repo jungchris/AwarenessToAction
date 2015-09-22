@@ -39,7 +39,8 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="56" id="aN0-XC-bxV"/>
                                                 </constraints>
-                                                <state key="normal" title="Button">
+                                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                                <state key="normal" title="Start">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -47,7 +48,7 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="By3-cd-wAq" secondAttribute="bottom" constant="21" id="5af-m5-Qja"/>
                                             <constraint firstAttribute="trailing" secondItem="dtT-G0-kVH" secondAttribute="trailing" constant="8" id="7YZ-hC-y86"/>
@@ -191,7 +192,7 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="RV2-zK-92k" firstAttribute="top" secondItem="3Nk-pZ-URV" secondAttribute="bottom" constant="22" id="06A-CU-MPQ"/>
                                             <constraint firstAttribute="trailing" secondItem="FiN-XN-O3Y" secondAttribute="trailing" constant="20" id="20d-KW-yZh"/>
@@ -386,7 +387,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="TaT-dX-Eg1" firstAttribute="top" secondItem="VLw-xS-QY6" secondAttribute="bottom" constant="8" id="6KG-lO-Gdy"/>
                                             <constraint firstItem="VLw-xS-QY6" firstAttribute="top" secondItem="Jau-vy-8hl" secondAttribute="bottom" constant="8" id="A2E-yx-1VM"/>
